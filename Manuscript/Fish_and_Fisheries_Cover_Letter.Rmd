@@ -1,0 +1,46 @@
+---
+output:
+  pdf_document:
+    latex_engine: pdflatex
+fontsize: 11pt
+geometry: margin=0.85in
+header-includes:
+  - \setlength{\parindent}{0pt}
+  - \setlength{\parskip}{0.48em}
+  - \pagestyle{empty}
+---
+
+\begin{flushright}
+4 August 2026
+\end{flushright}
+
+Professor Kai Lorenzen  
+Editor-in-Chief  
+*Fish and Fisheries*
+
+Dear Professor Lorenzen,
+
+On behalf of my coauthors, I am pleased to submit our manuscript, **“Can empirical catch allocation strategies based on single-region stock assessments provide adequate advice for managing spatially structured fish populations?”**, for consideration in *Fish and Fisheries*.
+
+The manuscript addresses a widespread fisheries-management challenge. Catch advice is often generated from a spatially aggregated assessment but must then be distributed among regions and fleets. Climate-driven redistribution and changing movement patterns, together with biological heterogeneity and complex population structure, can intensify mismatches among biological populations, assessment units, and management areas. Although spatially explicit assessments can address these processes directly, their data and modeling requirements may limit routine application. 
+
+**Empirical catch allocation** may therefore provide a practical bridge between aggregate assessment advice and spatial management. However, it remains unclear when such strategies are robust, when regional safeguards are needed, and when a more spatially explicit assessment is warranted. We evaluate these questions using a closed-loop management strategy evaluation implemented in **[SPASAM-MSE](https://doi.org/10.1139/cjfas-2025-0283)**, a spatially explicit MSE platform built on an age-structured, state-space stock assessment framework and conditioned on U.S. Atlantic coast black sea bass (*Centropristis striata*). Five conventional empirical catch allocation strategies were tested across 16 operating-model scenarios spanning alternative population structures, movement patterns, and recruitment dynamics.
+
+Our results show that catch allocation had more pronounced effects on regional outcomes than on system-level management performance. Similar system-level outcomes often concealed substantial regional differences in catch, spawning stock biomass, variability, and depletion risk. Simpler allocation rules generally produced more stable catch outcomes, whereas catch- and survey-informed strategies were more responsive to directional movement and persistent regional productivity declines. No strategy performed best across all scenarios, objectives, and spatial scales.
+
+Although conditioned on black sea bass, the operating model was designed to represent a **generalized, medium-lived marine fish**. The findings therefore provide broader guidance for fisheries facing similar mismatches among biological population structure, assessment scale, and spatial management implementation. We believe these transferable insights into spatial population dynamics, catch allocation, and management strategy evaluation are well aligned with the scope of *Fish and Fisheries*.
+
+This manuscript has not been published and is not under consideration elsewhere. All authors have reviewed and approved the manuscript and its submission. The authors declare no conflicts of interest.
+
+Thank you for considering our manuscript.
+
+Sincerely,
+
+\vspace{0.5em}
+
+**Chengxue Li, Ph.D.**  
+School of Marine and Atmospheric Sciences  
+Institute for Advanced Computational Science  
+Stony Brook University  
+Stony Brook, NY 11794, USA  
+chengxue.li@stonybrook.edu
