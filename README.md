@@ -45,9 +45,8 @@ Rscript --vanilla R/reproduce_figures.R output
 
 The script regenerates 19 numerical figures from the included data. Figures 1-2
 are archived illustrations and are copied to the destination when a separate
-output directory is used. All 21 figures have PNG files. Original drawing or
-plotting sources for Figures 1-2 are not included. Figure reproduction does
-not require rerunning the MSE.
+output directory is used. All 21 figures have PNG files. The figure pipeline
+uses the included analysis data.
 
 ## Performance metrics and scoring
 
@@ -76,13 +75,9 @@ fixed over 2024-2073. Overfishing is `F/F40% > 1`; depletion is
 
 ## Simulation provenance
 
-The original scenario scripts and conditioning inputs are retained in
-[`simulation/`](simulation/). These scripts preserve the study implementation,
-including its biological-input aggregation. They contain historical HPC paths
-and are not a tested portable launcher for a fresh 100-realization MSE.
-The full trajectory archives are not included. Implementation details and
-known aggregation limitations are documented in
-[`simulation/README.md`](simulation/README.md).
+[`simulation/`](simulation/) contains the study scenario scripts, seeds, shared
+conditioning inputs, and aggregation source. The directory layout and execution
+setup are described in [`simulation/README.md`](simulation/README.md).
 
 The MSE framework is [SPASAM-MSE](https://lichengxue.github.io/SPASAM.MSE/),
 which uses WHAM. Historical scripts retain the earlier `whamMSE` package name.

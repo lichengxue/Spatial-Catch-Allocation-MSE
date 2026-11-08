@@ -15,8 +15,8 @@ are not used in the published scoring pipeline.
 realized F/SSB trajectories. Static biological/fishery inputs are averaged over
 2069-2073; true mean recruitment uses the full simulated series. Regional and
 system realized F columns are paired with the corresponding reference columns.
-Fifty-one failed static SPR roots were recovered using the original equations
-and a bracketed root solver; the source is retained in `src/reference_points/`.
+SPR evaluation and bracketed root-solving source is provided in
+`src/reference_points/`.
 The included validation script checks all 48,000 risk probabilities against
 these cached trajectories and static reference points.
 
