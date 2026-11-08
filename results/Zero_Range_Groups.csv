@@ -1,0 +1,9 @@
+"Scenario","Region","Metric","Range","Common_value","Assigned_score"
+"NBL","G","p_overfished_All",0,4e-04,0.9996
+"NBH","G","p_overfished_All",0,4e-04,0.9996
+"NBLI","G","p_overfished_All",0,0,1
+"NBLO","G","p_overfished_All",0,4e-04,0.9996
+"MBL","G","p_overfished_All",0,4e-04,0.9996
+"MBH","G","p_overfished_All",0,6e-04,0.9994
+"MBLI","G","p_overfished_All",0,0,1
+"MBLO","G","p_overfished_All",0,4e-04,0.9996

@@ -1,0 +1,12 @@
+~$*
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+output/
+*.o
+*.dll
+*.so
+*.tmp
+results/Figure_*_Summary.csv
+results/R_session_info.txt

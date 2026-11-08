@@ -1,0 +1,17 @@
+"Scenario","Realizations","Strategies","Spatial_scales","Max_probability_error"
+"NB",100,5,3,0
+"NBH",100,5,3,0
+"NU",100,5,3,0
+"NUH",100,5,3,0
+"NBI",100,5,3,0
+"NBO",100,5,3,0
+"NBC",100,5,3,0
+"NUC",100,5,3,0
+"NBHS",100,5,3,0
+"MB",100,5,3,0
+"MBH",100,5,3,0
+"MU",100,5,3,0
+"MUH",100,5,3,0
+"MBI",100,5,3,0
+"MBO",100,5,3,0
+"MBHS",100,5,3,0
