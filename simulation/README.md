@@ -5,7 +5,6 @@
 | `scenarios/` | Sixteen operating-model scenario scripts |
 | `seeds/` | Scenario-specific random-number seeds |
 | `inputs/` | Shared conditioning data |
-| `legacy_make_aggregate_data.R` | Aggregation function used by the study scripts |
 
 Shared conditioning files are stored once. To reproduce the original working
 directory layout, place the corresponding inputs and seed file in the scenario

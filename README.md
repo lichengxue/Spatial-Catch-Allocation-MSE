@@ -20,7 +20,7 @@ realizations per scenario and strategy over a 50-year management period.
 | `R/` | Figure reproduction, metric extraction, and reference-point validation |
 | `data/` | Compact performance data, reference-point cache, and example trajectory |
 | `results/` | Raw summaries, scaled metrics, composite scores, and rankings |
-| `simulation/` | Original scenario scripts, seeds, shared conditioning data, and legacy aggregation source |
+| `simulation/` | Original scenario scripts, seeds, and shared conditioning data |
 | `src/reference_points/` | SPR evaluation and root-solving source |
 | `environment/` | R session information for the tested figure pipeline |
 
@@ -75,8 +75,8 @@ fixed over 2024-2073. Overfishing is `F/F40% > 1`; depletion is
 
 ## Simulation provenance
 
-[`simulation/`](simulation/) contains the study scenario scripts, seeds, shared
-conditioning inputs, and aggregation source. The directory layout and execution
+[`simulation/`](simulation/) contains the study scenario scripts, seeds, and
+shared conditioning inputs. The directory layout and execution
 setup are described in [`simulation/README.md`](simulation/README.md).
 
 The MSE framework is [SPASAM-MSE](https://lichengxue.github.io/SPASAM.MSE/),
